@@ -1,0 +1,43 @@
+@CHARSET "ISO-8859-1";
+ form {		 
+	width:100%;
+  	line-height:2.5em; 
+ 	margin: auto;
+ 	width: 80%;
+ 	border: 3px solid rgba(58, 57, 57, 0.66);
+  	padding: 20px;
+  	text-align: left;
+ }
+	  
+ input[type=text] {
+	height:20px;
+	border: 0;
+	width: calc(40% - 5px);
+	margin-left:1px;
+	box-shadow: -8px 10px 0px -7px #ebebeb, 8px 10px 0px -7px #ebebeb;
+	-webkit-transition: box-shadow 0.3s;
+	transition: box-shadow 0.3s;
+ } 
+ 
+ hr {
+	position : relative;
+	border: 11;
+	border-bottom: 2px dashed #ccc;
+	background: #213;
+ }
+ 
+table#testTable {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table#testTable td, table#testTable th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+table#testTable tr:nth-child(even) {
+    background-color: #dddddd;
+}
